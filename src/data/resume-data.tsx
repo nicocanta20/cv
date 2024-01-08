@@ -86,14 +86,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "WhisperChain",
+      title: "Search Audio LLM",
       techStack: ["Side Project", "Whisper", "Ollama", "Langchain", "Streamlit", "Python"],
       description:
         "A locally-run tool integrating advanced audio transcription with interactive Q&A capabilities, designed to enhance user engagement while maintaining privacy.",
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://github.com/nicocanta20/Search-Audio-LLM", // Add link if available
       },
     },
     {
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://csv-merge.streamlit.app/", // Add link if available
       },
     },
     {
@@ -148,7 +148,7 @@ export const RESUME_DATA = {
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://audio2summary.streamlit.app/", // Add link if available
       },
     },
     {
@@ -174,17 +174,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Text2Speech Tester",
-      techStack: ["Side Project", "ElevenLabs API", "Streamlit", "Python"],
-      description:
-        "Evaluates and enhances text-to-speech capabilities, offering a versatile auditory experience.",
-      logo: "", // Add logo if available
-      link: {
-        label: "", // Add label if available
-        href: "", // Add link if available
-      },
-    },
-    {
       title: "Startup Feedback Tool",
       techStack: ["Side Project", "OpenAI API", "Streamlit", "Python"],
       description:
@@ -192,7 +181,7 @@ export const RESUME_DATA = {
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://feedback-ai.streamlit.app/", // Add link if available
       },
     },
     {
@@ -203,31 +192,55 @@ export const RESUME_DATA = {
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://nixo-personal-portfolio.vercel.app/", // Add link if available
       },
     },
     {
-      title: "Real Estate Crowdfunding App",
+      title: "Real Estate Crowdfunding",
       techStack: ["Side Project","Design Project", "Figma"],
       description:
         "Democratizes real estate investment, offering an accessible platform for project funding and capital raising.",
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://www.figma.com/proto/wHo8U9xJtM5icT7JTdjryG/Real-Estate-Crowdfunding---Biens?page-id=0%3A1&type=design&node-id=83-306&viewport=22%2C95%2C0.15&t=aLIqdyzpzMboWgz5-1&scaling=scale-down&starting-point-node-id=93%3A1187&show-proto-sidebar=1&mode=design", // Add link if available
       },
     },
     {
-      title: "MAIER Art Gallery Website",
+      title: "Art Gallery Website",
       techStack: ["Web Development", "Framer"],
       description:
         "Reimagines the art gallery experience, connecting communities through a unique digital platform.",
       logo: "", // Add logo if available
       link: {
         label: "", // Add label if available
-        href: "", // Add link if available
+        href: "https://maierbencich.framer.website/", // Add link if available
       },
     },
+    {
+      title: "Efficient Ride Allocation",
+      techStack: ["College Assignment", "Algorithm Design", "Jupyter Notebook", "C++"],
+      description:
+        "Created an optimized algorithm for a ride-sharing service, matching vehicles to passengers based on location and travel data. This college project focused on enhancing service efficiency and balancing supply and demand in targeted areas.",
+      logo: "", // Add logo if available
+      link: {
+        label: "", // Add label if available
+        href: "https://github.com/florianreyes/TP_1_TD5_Algoritmos", // Add link if available
+      },
+    },
+    {
+      title: "Neural Music Encoder",
+      techStack: ["College Assignment", "Artificial Intelligence", "Neural Networks", "Data Analysis", "Python"],
+      description:
+        "Developed a music encoder using neural networks to transform songs into a latent space representation. This involved both encoding and decoding processes for musical pieces using the GTZAN dataset. The project also included exploratory analysis to reveal intricate relationships within the music data.",
+      logo: "", // Add logo if available
+      link: {
+        label: "", // Add label if available
+        href: "https://github.com/florianreyes/audio-analisis-tdvi", // Add link if available
+      },
+    },
+    
+    
   ],
 
   
