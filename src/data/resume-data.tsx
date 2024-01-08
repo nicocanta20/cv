@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -27,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Computer Science Student with a Minor in Business, Specializing in Python Development and Learning Front-End Technologies",
   summary:
-    "As a Computer Science student at Universidad Di Tella, I have a keen interest in business and a growing proficiency in Python, complemented by my enthusiasm for front-end technologies. Outside of academics, I enjoy engaging in ping pong and maintaining fitness at the gym. My curiosity extends to AI and language models, areas I am eager to explore more deeply in the future. I am excited about the prospect of applying my skills and interests in a dynamic, innovative environment.",
+    "As a Computer Science student at Universidad Di Tella, I have a keen interest in business and a growing proficiency in Python, complemented by my enthusiasm for front-end technologies. My curiosity extends to AI and language models, areas I am eager to explore more deeply in the future. I am excited about the prospect of applying my skills and interests in a dynamic, innovative environment.",
   avatarUrl: "profile.png",
   personalWebsiteUrl: "https://nixo.framer.website",
   contact: {
