@@ -20,259 +20,235 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Nicolas Cantarovici",
+  initials: "NC",
+  location: "Ciudad Autónoma de Buenos Aires, Argentina, ART",
+  locationLink: "https://www.google.com/maps/place/Buenos+Aires",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Computer Science Student with a Minor in Business, Specializing in Python Development and Learning Front-End Technologies",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Computer Science student at Universidad Di Tella, I have a keen interest in business and a growing proficiency in Python, complemented by my enthusiasm for front-end technologies. Outside of academics, I enjoy engaging in ping pong and maintaining fitness at the gym. My curiosity extends to AI and language models, areas I am eager to explore more deeply in the future. I am excited about the prospect of applying my skills and interests in a dynamic, innovative environment.",
+  avatarUrl: "profile.png",
+  personalWebsiteUrl: "https://nixo.framer.website",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "nicolascantarovici@gmail.com",
+    tel: "+5491130684500",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/nicocanta20",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/nicolas-cantarovici",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/N1co_c",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Di Tella",
+    degree: "Bachelor's Degree in Computer Science with a Minor in Business",
+    start: "2021",
+    end: "Expected in 2024",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Freelance Project",
+      link: "", // Add a link if available
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Content Creation for Medical Center",
+      logo: "", // Add logo if available
+      start: "", // Add start date if available
+      end: "", // Add end date if available
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Utilized AI tools to generate visual content, simplifying the explanation of complex medical concepts for social media platforms.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Freelance Project",
+      link: "", // Add a link if available
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Web Development for Music Marketing",
+      logo: "", // Add logo if available
+      start: "", // Add start date if available
+      end: "", // Add end date if available
+      description:
+        "Designed and developed a website for a brand specializing in music marketing, focusing on usability and attractive design.",
     },
-  ],
+    {
+      company: "Freelance Project",
+      link: "", // Add a link if available
+      badges: [],
+      title: "Spotify Analysis Tools Development",
+      logo: "", // Add logo if available
+      start: "", // Add start date if available
+      end: "", // Add end date if available
+      description:
+        "Created a web application for monitoring playlist followers on Spotify, providing valuable insights for engagement strategies.",
+    },
+  ],  
   skills: [
+    "Python",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React/Next.js",
+    "Figma",
+    "Framer",
+    "Notion",
+    "Zapier",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "WhisperChain",
+      techStack: ["Side Project", "Whisper", "Ollama", "Langchain", "Streamlit", "Python"],
+      description:
+        "A locally-run tool integrating advanced audio transcription with interactive Q&A capabilities, designed to enhance user engagement while maintaining privacy.",
+      logo: "", // Add logo if available
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "CSV Merger",
+      techStack: ["Side Project", "Data Processing", "Streamlit", "Python"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Simplifies data management by consolidating multiple CSV files into one streamlined dataset.",
+      logo: "", // Add logo if available
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Memory Assistant",
+      techStack: ["Side Project", "OpenAI API", "Streamlit", "Python"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Enhances memory recall with an intuitive application for managing contacts, ideas, and projects.",
+      logo: "", // Add logo if available
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Spotify Tracker",
+      techStack: ["Spotify API", "React", "JavaScript"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Provides real-time monitoring and insights into the follower trends of Spotify playlists.",
+      logo: "", // Add logo if available
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Autogen Research",
+      techStack: ["Side Project", "OpenAI API", "Langchain", "Autogen", "Python"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Facilitates the creation of AI research agents, aiming to revolutionize data analysis and insight generation.",
+      logo: "", // Add logo if available
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Audio2Summary",
+      techStack: ["Side Project", "OpenAI API", "Audio Processing", "Streamlit", "Python"],
+      description:
+        "Transforms audio content into concise summaries, offering a quick grasp of audio material.",
+      logo: "", // Add logo if available
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Terminal Chatbot",
+      techStack: ["Side Project", "OpenAI API", "Chatbot", "Python"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Brings intelligent conversation to the terminal, offering a unique interactive experience.",
+      logo: "", // Add logo if available
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "AI Journal",
+      techStack: ["Side Project", "Notion API", "OpenAI API", "Python"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Automates daily journaling, capturing thoughts and ideas with ease and integrating them into a digital archive.",
+      logo: "", // Add logo if available
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Text2Speech Tester",
+      techStack: ["Side Project", "ElevenLabs API", "Streamlit", "Python"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Evaluates and enhances text-to-speech capabilities, offering a versatile auditory experience.",
+      logo: "", // Add logo if available
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Startup Feedback Tool",
+      techStack: ["Side Project", "OpenAI API", "Streamlit", "Python"],
       description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+        "Provides critical insights and feedback for startup ideas, fostering innovation and growth.",
+      logo: "", // Add logo if available
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Personal Portfolio",
+      techStack: ["Side Project", "HTML", "CSS"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "Showcases professional and personal achievements in a clean, user-friendly web format.",
+      logo: "", // Add logo if available
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "", // Add label if available
+        href: "", // Add link if available
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Real Estate Crowdfunding App",
+      techStack: ["Side Project","Design Project", "Figma"],
       description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+        "Democratizes real estate investment, offering an accessible platform for project funding and capital raising.",
+      logo: "", // Add logo if available
+      link: {
+        label: "", // Add label if available
+        href: "", // Add link if available
+      },
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "MAIER Art Gallery Website",
+      techStack: ["Web Development", "Framer"],
       description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Reimagines the art gallery experience, connecting communities through a unique digital platform.",
+      logo: "", // Add logo if available
+      link: {
+        label: "", // Add label if available
+        href: "", // Add link if available
+      },
     },
   ],
+
+  
 } as const;
+
