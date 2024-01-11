@@ -196,7 +196,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Real Estate Crowdfunding",
+      title: "Real Estate App",
       techStack: ["Side Project","Design Project", "Figma"],
       description:
         "Democratizes real estate investment, offering an accessible platform for project funding and capital raising.",
