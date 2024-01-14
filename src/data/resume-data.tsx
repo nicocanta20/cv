@@ -22,7 +22,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/nicolas-cantarovici",
+        url: "https://www.linkedin.com/in/nicolas-cantarovici-3b85a0198",
         icon: LinkedInIcon,
       },
       {
